@@ -123,6 +123,8 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-staticfiles=[
+STATICFILES=[
     STATIC_DIR,
 ]
+
+AUTH_USER_MODEL = 'app_1.UserProfile'
